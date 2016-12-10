@@ -2,15 +2,25 @@
 	display: block;
 	height: 215px;
 	width: 160px;
+	border: ridge;
+	border-color: lightgray;
+	border-width: 7px;
 	background-image: url(naumov.jpg);
 	position: absolute;
 	left: 25px;
+	top: 230px;
 }
  
 #zav_caf_tx{/* текст зав. кафедрой */
 	position: absolute;
-	top: 290px;
-	left: 25px;
+	top: 450px;
+	left: 35px;
+	font-family: Arial;
+}
+
+#head{/* Заголовок */
+	font-size: 20px;
+	font-family: Arial;
 }
 
  a { /* убирание подчеркивания ссылок */
@@ -23,36 +33,46 @@
 	margin: 15px;
 	margin-top: 15px;
 	margin-bottom: 15px;
+	margin-right: 20px;
 	font-family: Arial;
+	padding: 4px;
+}
+
+#teachers{/* преподаватели */
+	background-color: #e9e9e9;
+	border: single;
+	margin: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-family: Arial;
+	padding: 4px;
+	margin-right: 75%;
 }
 
 #contact_info{/* контактная информация */
 	background-color: white;
 	margin-top: 10px;
 	margin-right: 15px;
-	border: double;
-}
-
-.links{/* ссылки (каждая по отдельности) */
-	border: double;
-	border-width: 6px;
-	border-color: white;
+	border: dotted;
+	right:25px;
+	position: absolute;
+	font-family: Arial;
 }
 
 #logo{/* логотип */
 	margin-bottom: 10px;
-	background-image: url(logo.png);
-	width: 40px;
-	height: 40px;
 	display: block;
 	position: absolute;
+	left: 25px;
+	margin-right: 23px;
 }
 
 #nav{/* меню навигации */
-	margin-right: 60px;
-	margin-left: 60px;;
-	height: 30px;
+	margin-right: 140px;
+	margin-left: 140px;
+	height: 100px;
 	background-color: lightblue;
+
 }
 
 #nav a{/* настройка ссылок */
@@ -65,6 +85,38 @@
 	right: 25px;
 }
 
+#nav b{
+	color: white;
+	font-family: Arial;
+}
+
+#nav b:Hover{
+	color: black;
+	font-family: Arial;
+}
+
 #nav a:Hover{/* настройка ссылок */
 	background-color: white;
+	padding: 4px;
+	margin-right: -5px;
+	margin-left: -5px;
 }
+
+#border{/* рамка документа */
+	border: solid;
+	border-color: gray;
+	border-width: 10px;
+}
+
+ul.hr li {/* Навигация (горизантальный список) */
+	display: inline;
+	margin-right: 5px;
+	border: 3px solid white;
+	padding: 4px;
+}
+
+ul{
+	-webkit-padding-start: 0;
+}
+
+
