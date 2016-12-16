@@ -2,26 +2,65 @@
 	display: block;
 	height: 215px;
 	width: 160px;
-	border: ridge;
-	border-color: lightgray;
-	border-width: 7px;
+	border: solid 3px white;
+	border-radius: 4px;
 	background-image: url(naumov.jpg);
 	position: relative;
-	left: 7%;
-	top: -10px;
+	background-position: center;
+	background-size: 120%;
+	top: 5px;
+	max-width: 1000px;
 }
 
- 
+#head_photo{
+	display: block;
+	width: 85%;
+	max-width: 1010px;
+	max-height: 33.3%;
+	height: 392.16px;
+	background-image: url(G.jpg);
+	background-position: center;
+	background-size: 100%;
+	max-width: 1000px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 1%;
+	background-repeat: no-repeat;
+
+}
+
+#zav{
+	max-width: 1010px;
+	height: 450px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #zav_caf_tx{/* текст зав. кафедрой */
 	position: relative;
-	top: -10px;
-	left: 7%;
+	top: 10px;
 	font-family: Arial;
+	border: solid 1px white;
+	border-radius: 4px;
+	background-color: white;
+	width: 230px;
+	height: 40px;
+	padding-left: 5px;
 }
 
 #head{/* Заголовок */
 	font-size: 20px;
 	font-family: Arial;
+	background-color: white;
+	border: 5px solid white;
+	border-radius: 4px;
+	height: 100px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: -5px;
 }
 
 #nav a { /* убирание подчеркивания ссылок */
@@ -29,15 +68,17 @@
 }
 
 .main_text{/* текст по умолчанию */
-	border: ridge;
-	margin: 15px;
-	margin-top: 15px;
-	margin-bottom: 15px;
 	font-family: Arial;
-	padding-left: 4px;
-	padding-right: 4px;
-	width: 85%;
-	margin: auto;
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 4px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 5px;
+	padding-left: 5px;
+	max-width: 1000px;
+	top: -170px;
+	position: relative;
 }
 
 #teachers{/* преподаватели */
@@ -53,62 +94,57 @@
 }
 
 #contact_info{/* контактная информация */
-	background-color: white;
-	margin-top: 10px;
-	margin: auto;
-	border: dotted;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 4px;
 	font-family: Arial;
-	margin-right: 7%;
-	top: -305px;
 	position: relative;
+	max-width: 1010px;
+	top:-445px;
 }
 
+#tab{
+	border: solid 1px white;
+	background-color: white;
+	border-radius: 4px;
+}
 #logo{/* логотип */
 	display: block;
 	position: relative;
-	top: -80px;
-	margin-right: 50%;
+	top: -21px;
+	width: 40px;
+	height: 40px;
 
 }
 
 #nav{/* меню навигации */
-	margin-top: -70px;
-	height: 70px;
-	margin-right: 7%;
-	margin-left: 7%;
-	border: double;
-	font-size: 20px;
-	border-color: lightblue;
-	background-color: white;
-	border-radius: 10px;
+	height: 40px;
+	font-size: 17px;
+	background-color: #7B68EE;
+	margin: -17px;
+	line-height: 40px;
+	font-family: Arial;
 
 }
 
-#nav a{/* настройка ссылок */
+.links_backgroung{
+	display: block;
 	height: 30px;
-	color: black;
-	font: "Courier New";
-	line-height: 25px;
-	background-repeat: no-repeat;
-	position: right;
-	right: 25px;
+	background-color: #483D8B;
+	padding: 4px;
+	padding-left: 6px;
+	padding-right: 6px;
+	border: 1px solid #483D8B;
+	border-radius: 20px;
 }
 
 #nav b{
-	color: lightblue;
 	font-family: Arial;
+	color: #AB82FF;
 }
 
 #nav b:Hover{
-	color: black;
-	font-family: Arial;
-}
-
-#border{/* рамка документа */
-	border: solid;
-	border-color: gray;
-	border-width: 10px;
-	
+	color: #EED2EE;
 }
 
 ul.hr li {/* Навигация (горизантальный список) */
@@ -121,4 +157,10 @@ ul{
 	-webkit-padding-start: 0;
 }
 
+#background-color{
+	background-color: #edeef0;
+}
 
+#pad{
+	padding: 7.5%;
+}
