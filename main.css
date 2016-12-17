@@ -1,3 +1,11 @@
+#logo{/* логотип */
+	display: block;
+	position: relative;
+	top: -21px;
+	width: 40px;
+	height: 40px;
+}
+
 #pict_zav_caf{/* Фотография зав. кафедрой */
 	display: block;
 	height: 215px;
@@ -12,7 +20,27 @@
 	max-width: 1000px;
 }
 
-#head_photo{
+#zav_caf_tx{/* текст зав. кафедрой */
+	position: relative;
+	top: 10px;
+	font-family: Arial;
+	border: solid 1px white;
+	border-radius: 4px;
+	background-color: white;
+	width: 230px;
+	height: 40px;
+	padding-left: 5px;
+}
+
+#zav{/* Эллемент позиционирования блока зав. кафедрой */
+	max-width: 1010px;
+	height: 450px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#head_photo{/* Заглавная фотография на гл. странцие */
 	display: block;
 	width: 85%;
 	max-width: 1010px;
@@ -30,27 +58,7 @@
 
 }
 
-#zav{
-	max-width: 1010px;
-	height: 450px;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#zav_caf_tx{/* текст зав. кафедрой */
-	position: relative;
-	top: 10px;
-	font-family: Arial;
-	border: solid 1px white;
-	border-radius: 4px;
-	background-color: white;
-	width: 230px;
-	height: 40px;
-	padding-left: 5px;
-}
-
-#head{/* Заголовок */
+#head_main{/* Заголовок гл. странциы */
 	font-size: 20px;
 	font-family: Arial;
 	background-color: white;
@@ -63,11 +71,78 @@
 	padding-left: -5px;
 }
 
-#nav a { /* убирание подчеркивания ссылок */
-    text-decoration: none;
+#head_abit{/* Заголовок для абитуриента */
+	font-size: 20px;
+	font-family: Arial;
+	background-color: white;
+	border: 5px solid white;
+	border-radius: 4px;
+	height: 100px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: -5px;
 }
 
-.main_text{/* текст по умолчанию */
+#head_usf_inf{/* Заголовок для студента */
+	font-size: 20px;
+	font-family: Arial;
+	background-color: white;
+	border: 5px solid white;
+	border-radius: 4px;
+	height: 100px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: -5px;
+}
+
+#head_sceudule{/* Заголовок расписание */
+	font-size: 20px;
+	font-family: Arial;
+	background-color: white;
+	border: 5px solid white;
+	border-radius: 4px;
+	height: 100px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: -5px;
+}
+
+#head_news{/* Заголовок новости */
+	font-size: 20px;
+	font-family: Arial;
+	background-color: white;
+	border: 5px solid white;
+	border-radius: 4px;
+	height: 60px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: -5px;
+}
+
+.news_block{/*Блок новостей*/
+	font-family: Arial;
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 4px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 5px;
+	padding-left: 5px;
+	max-width: 1000px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+#nav a { /* убирание подчеркивания ссылок */
+    text-decoration: none;
+
+}
+
+#about{/* О кафедре */
 	font-family: Arial;
 	background-color: white;
 	border: 1px solid white;
@@ -82,18 +157,28 @@
 }
 
 #teachers{/* преподаватели */
-	border: ridge;
-	margin: 15px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	margin-left: 7%;
 	font-family: Arial;
-	padding-left: 4px;
-	padding-right: 4px;
-	width: 165px;
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 4px;
+	padding-left: 5px;
+	display: block;
+	position: relative;
+	width: 220px;
+	top: -160px;
+	padding-right: 5px;
+	padding-left: 5px;
+	
 }
 
-#contact_info{/* контактная информация */
+#teach{ /* элемент позиционирования блока "Преподаватели" */
+	position: relative;
+	max-width: 1010px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contact_info{/* контактная информация на гл. странице */
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 4px;
@@ -103,18 +188,10 @@
 	top:-445px;
 }
 
-#tab{
+#tab{/* элемент позицианирования блока "Контактная информация" */
 	border: solid 1px white;
 	background-color: white;
 	border-radius: 4px;
-}
-#logo{/* логотип */
-	display: block;
-	position: relative;
-	top: -21px;
-	width: 40px;
-	height: 40px;
-
 }
 
 #nav{/* меню навигации */
@@ -127,7 +204,7 @@
 
 }
 
-.links_backgroung{
+.links_backgroung{/* кнопки навигации */
 	display: block;
 	height: 30px;
 	background-color: #483D8B;
@@ -138,12 +215,12 @@
 	border-radius: 20px;
 }
 
-#nav b{
+#nav b{/* Текст кнопок навигации */
 	font-family: Arial;
 	color: #AB82FF;
 }
 
-#nav b:Hover{
+#nav b:Hover{/* текст кнопок навигации (наведение) */
 	color: #EED2EE;
 }
 
@@ -153,14 +230,27 @@ ul.hr li {/* Навигация (горизантальный список) */
 	
 }
 
-ul{
-	-webkit-padding-start: 0;
-}
-
-#background-color{
+#background-color{/*цвет фона страницы*/
 	background-color: #edeef0;
 }
 
-#pad{
-	padding: 7.5%;
+#pad{/*отступы тела доккумента*/
+	padding-left: 7.5%;
+	padding-right: 7.5%;
+}
+
+#copywrite{/*авторы*/
+	color: gray;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+#copywrite a { /* убирание подчеркивания ссылок */
+    text-decoration: none;
+	color: #7B68EE;
+	font-family: Arial;
+}
+
+ul{
+	-webkit-padding-start: 0;
 }
